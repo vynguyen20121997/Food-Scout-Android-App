@@ -1,6 +1,6 @@
 # Food-Scout-FE
 Your tasty adventure awaits.
-Landing: A map bursting with food near you. Icons hint at cuisine (think pizza slices!) 🍕🍕.
+Landing: A map bursting with food near you. Icons hint at cuisine 🍕🍕.
 
 Features:
 
