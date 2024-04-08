@@ -3,7 +3,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 import IntroScreen from './screen/Intro';
 import HomeScreen from './screen/HomeScreen';
-import LoginScreen from './screen/Login';
+import LoginScreen from './screen/LoginScreen';
+import SignInScreen from './screen/SignInScreen';
 const App = () => {
   const Stack = createNativeStackNavigator();
 
@@ -33,6 +34,17 @@ const App = () => {
         <Stack.Screen
           name="Login"
           component={LoginScreen}
+          options={{
+            title: '',
+            headerTintColor: 'white',
+            headerTitleAlign: 'center',
+            headerTransparent: true,
+            animationDuration: 450,
+          }}
+        />
+        <Stack.Screen
+          name="SignIn"
+          component={SignInScreen}
           options={{
             title: '',
             headerTintColor: 'white',
