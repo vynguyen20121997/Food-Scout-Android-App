@@ -26,7 +26,7 @@ const IntroScreen = () => {
             title="Get Started"
             color="#f3322f"
             titleStyle={styles.text}
-            onPress={() => navigation.navigate('Home')}
+            onPress={() => navigation.navigate('HomeScreen')}
           />
         </View>
       </View>
